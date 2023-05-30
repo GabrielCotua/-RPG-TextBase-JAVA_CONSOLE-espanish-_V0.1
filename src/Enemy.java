@@ -8,7 +8,7 @@ public class Enemy {
   boolean isAlive = true;
   
   public Enemy(Player player){
-    name = "Duede";
+    name = "Duende";
     level = player.getLevel();
     if (level == 1){
       damage = 5;

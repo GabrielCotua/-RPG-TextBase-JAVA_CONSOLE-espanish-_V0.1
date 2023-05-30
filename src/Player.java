@@ -87,4 +87,7 @@ public class Player{
   public int getMaxHealth(){
     return maxHealth;
   }
+  public String getUsername(){
+    return username;
+  }
 }

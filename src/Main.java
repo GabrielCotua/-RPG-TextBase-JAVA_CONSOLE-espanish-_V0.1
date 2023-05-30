@@ -13,7 +13,7 @@ public class Main{
     int num = 2;
     String username ="";
     while (num > 1){
-      System.out.println("Bienvenido jugador, Por favor inserte su numbre: ");
+      System.out.println("Bienvenido jugador, Por favor inserte su nombre: ");
       username = scan.nextLine();
       System.out.println("Hola! " + username + " por favor escoja su clase");
       System.out.println("[t] para la clase de tanque");
